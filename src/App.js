@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Blognav from "./components/navbar/Blognav";
+import Aboutus from "./components/home/Aboutus";
+import Blogs from "./components/home/Blogs";
+import Gallery from "./components/home/Gallery";
 function App() {
+  const ScrollToTop = () => {
+    window.scrollTo(0, 0);
+    return null;
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <Blognav />
+        <Routes>
+          <Route path="/Aboutus" element={<Aboutus />} />
+          <Route path="/Blogs" element={<Blogs/>}/>
+          <Route path="/Gallery" element={<Gallery/>}/>
+        </Routes>
+      </div>
+   
   );
 }
 

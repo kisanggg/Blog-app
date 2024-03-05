@@ -1,0 +1,28 @@
+.text{
+    position: relative;
+}
+.imageText{
+    position: absolute;
+    left:75%;
+    bottom: 10%;
+}
+/* button{
+    width: fit-content;
+    height: 37px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(46, 45, 44);
+    color: rgb(210, 204, 204);
+
+} */
+button:hover{
+    background-color: rgb(209, 204, 204);
+}
+/* h3{
+    color: rgb(203 200 190);
+} */
+p{
+    margin:20px;
+    font-size: 12px;
+    color:rgb(203 200 190);
+}
