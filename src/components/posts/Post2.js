@@ -1,24 +1,24 @@
-import React from 'react'
-import { Card ,Button} from 'react-bootstrap'
+import React from "react";
+import { Card, Button } from "react-bootstrap";
 
 const Post2 = () => {
   return (
     <div>
-       <Card style={{width:"40rem",margin:"20px"}}>
+      <Card style={{ width: "40rem", margin: "20px" }}>
         <Card.Body>
-          <Card.Img src="https://www.hindustantimes.com/ht-img/img/2024/02/07/1600x900/One_Piece_manga_spread_1707300615544_1707300662162.jpg"></Card.Img>
-          <Card.Title style={{margin:"20px"}}>
-           One Piece
-          </Card.Title>
-          <Card.Text style={{color:"black"}}>"One Piece" is a widely popular Japanese anime and manga series created by Eiichiro Oda. 
-            It follows the adventures of Monkey D. Luffy and his diverse crew of pirates known as the Straw Hat Pirates 
-            as they sail across the vast and dangerous seas in search of the legendary treasure known as One Piece.</Card.Text>
-        <Button style={{marginLeft:"10px"}}>Read More</Button>
+          <Card.Img src="https://scng-dash.digitalfirstmedia.com/wp-content/uploads/2020/01/OCR-L-SUNSETS-0104-02-LO.jpg"></Card.Img>
+          <Card.Title style={{ margin: "20px" }}>Ibiza</Card.Title>
+          <Card.Text style={{ color: "black" }}>
+            Capturing the sunset in Ibiza is a truly magical experience.
+            Renowned for its stunning coastline, Ibiza offers a plethora of
+            breathtaking spots to witness the sun descending into the horizon,
+            painting the sky with an array of vibrant colors.
+          </Card.Text>
+          <Button style={{ marginLeft: "10px" }}>Read More</Button>
         </Card.Body>
-        </Card>
-    
+      </Card>
     </div>
-  )
-}
+  );
+};
 
-export default Post2
+export default Post2;

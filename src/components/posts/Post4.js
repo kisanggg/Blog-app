@@ -1,21 +1,24 @@
-import React from 'react'
-import { Card ,Button} from 'react-bootstrap'
+import React from "react";
+import { Card, Button } from "react-bootstrap";
 const Post4 = () => {
   return (
     <div>
-      <Card style={{width:"40rem",margin:"20px"}}>
+      <Card style={{ width: "40rem", margin: "20px" }}>
         <Card.Body>
-          <Card.Img src="https://miro.medium.com/v2/resize:fit:1400/1*9UYnklwYxaX6nQyGY_ZLjg.png"></Card.Img>
-          <Card.Title style={{margin:"20px"}}>
-           Ponyo
-          </Card.Title>
-          <Card.Text style={{color:"black"}}>"Ponyo" is a visually stunning animated film directed by Hayao Miyazaki and produced by Studio Ghibli. 
-            Released in 2008, the film follows the magical journey of a goldfish named Ponyo who desires to become human after encountering a young boy named Sosuke.</Card.Text>
-        <Button style={{marginLeft:"10px"}}>Read More</Button>
+          <Card.Img src="https://qph.cf2.quoracdn.net/main-qimg-d829f89e06281cefe47acf50c7d6d73f-lq"></Card.Img>
+          <Card.Title style={{ margin: "20px" }}>Italy</Card.Title>
+          <Card.Text style={{ color: "black" }}>
+            Italy, with its diverse landscapes and stunning coastline, offers a
+            plethora of picturesque spots to capture breathtaking sunsets.
+            Positano, with its pastel-colored buildings cascading down the
+            hillside, offers particularly stunning views as the sun sets over
+            the Tyrrhenian Sea.
+          </Card.Text>
+          <Button style={{ marginLeft: "10px" }}>Read More</Button>
         </Card.Body>
-        </Card>
+      </Card>
     </div>
-  )
-}
+  );
+};
 
-export default Post4
+export default Post4;
